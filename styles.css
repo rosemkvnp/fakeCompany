@@ -1,0 +1,42 @@
+@font-face {
+    font-family: block;
+    src: url('/siteFonts/AmericanCaptain-MdEY.otf');
+}
+#companyLogo{
+width: 12rem ; 
+vertical-align: middle;
+}
+#topNav{
+background-color: rgb(192, 204, 238);
+position: fixed;
+right: 0;
+left: 0;
+top: 0;
+border-bottom: 0.09rem solid gray;
+}
+.navCon{
+    vertical-align: middle;
+    font-size: 1.3rem;
+    margin: 0 3rem 0 0;
+    font-family: block;
+    letter-spacing: 0.2rem;
+}
+#pageCon{
+    position: fixed;
+    top: 4.46rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#currentSlide{
+    width: 100%;
+    transition: opacity .5s ease-in;
+    filter: brightness(75%);
+}
+#slideText{
+    position: absolute;
+
+    top: 4%;
+    left: 3%;
+    text-align: center;
+}
