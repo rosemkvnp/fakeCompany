@@ -17,6 +17,6 @@ function slideChanger() {
         currentSlide.style.opacity = 1;
         slideButton.style.opacity = 1
 
-    }, 200); 
+    }, 300); 
 }
-setInterval(slideChanger, 8000);
+setInterval(slideChanger, 10000);

@@ -17,69 +17,78 @@ left: 0;
 top: 0;
 border-bottom: 0.09rem solid gray;
 }
-.navCon{
+.navContent{
     vertical-align: middle;
     font-size: 1.3rem;
     margin: 0 3rem 0 0;
     font-family: block;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    transition: .3s;
 }
-#pageCon{
-    position: absolute;
+.navContent:hover{
+    color: white;
+}
+#slideContent{
+   position: absolute;
    top: 10.8%; 
    left: 0%;
-    text-align: center;
 }
 #currentSlide{
     width: 100%;
     transition: opacity .2s ease-in;
     filter: brightness(70%);
 }
-#slideText{
+#slideText, #slideText2, #slideButton{
     position: absolute;
+    font-family: block;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+#slideText{
     top:0%;
     left: 2%;
-    font-family: block;
-    letter-spacing: 0.2rem;
     font-size: 4rem;
-    color: white;
-    text-decoration: underline;
 }
 #slideText2{
-    position: absolute;
-    top:44%;
-    left: 34%;
-    font-family: block;
-    letter-spacing: 0.2rem;
+    top: 44%;
+    left: 35%;
     font-size: 2.2rem;
-    color: white;
+    text-decoration: underline;
 }
 #slideButton{
+    border: 0.1rem solid white !important;
     border-radius: 5rem;
-    font-family: block;
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     border-style: none;
     padding: 0.7rem 1rem 0.1rem 1rem;
     background-color: rgb(156, 208, 250);
-    color: white;
-    letter-spacing: 0.1rem;
-    position: absolute;
-    top:57%;
-    left: 44%;
-    transition: .2s ease-in;
+    top:58%;
+    left: 42%;
+    transition: .3s ease-in;
     
 }
 #slideButton:hover{
     color: rgb(218, 228, 226);
     background-color: rgb(62, 102, 100);
 }
-#aboutUsSect{
+#aboutUsSection{
     margin-top: 53%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.3rem;
 }
 h1{
     font-family: block;
     letter-spacing: 0.1rem;
+    text-decoration: underline;
+}
+a:any-link{
+    text-decoration: none;
+}
+#gpsLocation:hover{
+    color: black;
     text-decoration: underline;
 }
