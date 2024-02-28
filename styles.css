@@ -23,7 +23,7 @@ border-bottom: 0.09rem solid gray;
     margin: 0 3rem 0 0;
     font-family: block;
     letter-spacing: 0.1rem;
-    transition: .3s;
+    transition: .2s;
 }
 .navContent:hover{
     color: white;
@@ -38,7 +38,7 @@ border-bottom: 0.09rem solid gray;
     transition: opacity .2s ease-in;
     filter: brightness(70%);
 }
-#slideText, #slideText2, #slideButton{
+#slideText, #slideText2, #slideButton, #learnMore{
     position: absolute;
     font-family: block;
     color: white;
@@ -51,20 +51,20 @@ border-bottom: 0.09rem solid gray;
 }
 #slideText2{
     top: 44%;
-    left: 35%;
+    left: 36%;
     font-size: 2.2rem;
     text-decoration: underline;
 }
 #slideButton{
     border: 0.1rem solid white !important;
-    border-radius: 5rem;
+    border-radius: 1rem;
     font-size: 2.7rem;
     border-style: none;
     padding: 0.7rem 1rem 0.1rem 1rem;
     background-color: rgb(156, 208, 250);
     top:58%;
     left: 42%;
-    transition: .3s ease-in;
+    transition: .2s;
     
 }
 #slideButton:hover{
@@ -72,7 +72,7 @@ border-bottom: 0.09rem solid gray;
     background-color: rgb(62, 102, 100);
 }
 #aboutUsSection{
-    margin-top: 53%;
+    margin: 12% 15% 0 15%;   
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
@@ -91,4 +91,45 @@ a:any-link{
 #gpsLocation:hover{
     color: black;
     text-decoration: underline;
+}
+#roofingTypes{
+    margin-top: 53%;
+}
+.roofingContent{
+    border: 0.05rem solid black;
+    width: 25%;
+    border-radius: 0.5rem;
+    vertical-align: middle;
+    filter: brightness(80%);
+    position: relative;
+    right:3%;
+    transition: .3s;
+}
+.roofingContentTxt{
+    font-size: 1.3rem;
+    position: relative;
+    left: 14%;
+    color: white;
+    vertical-align: middle;
+    font-family: block;
+    letter-spacing: 0.1rem;
+    z-index: 1;
+    transition: .2s;
+}
+.roofingContent:hover{
+    filter: brightness(40%);
+}
+#learnMore{
+    position: none;
+    border: 0.1rem solid white !important;
+    font-size: 2.5rem;
+    border-style: none;
+    padding: 0.7rem 1rem 0.1rem 1rem;
+    background-color: rgb(126, 188, 240);
+    top: 170%;
+    left: 42%;
+    transition: .2s;
+}
+#learnMore:hover{
+    background-color: rgb(54, 93, 124);
 }

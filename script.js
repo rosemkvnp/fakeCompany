@@ -19,4 +19,19 @@ function slideChanger() {
 
     }, 300); 
 }
-setInterval(slideChanger, 10000);
+setInterval(slideChanger, 10000);   
+
+let b 
+let roofingContent = document.querySelector('.roofingContent')
+
+let roofingContentTxt =document.querySelector('.roofingContentTxt')
+
+roofingContent.forEach(function(content){
+    roofingContent.addEventListener('mouseover', function(){
+       roofingContentTxt.style.color -'red'
+    })
+})
+
+
+
+     
