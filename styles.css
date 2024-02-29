@@ -48,6 +48,7 @@ border-bottom: 0.09rem solid gray;
     top:0%;
     left: 2%;
     font-size: 4rem;
+    display: none;
 }
 #slideText2{
     top: 44%;
@@ -62,7 +63,7 @@ border-bottom: 0.09rem solid gray;
     border-style: none;
     padding: 0.7rem 1rem 0.1rem 1rem;
     background-color: rgb(156, 208, 250);
-    top:58%;
+    top:60%;
     left: 42%;
     transition: .2s;
     
@@ -137,7 +138,7 @@ a:any-link{
     left:0%;
     right: 0%; 
     margin: 12% 0 0 0;
-    padding-bottom: 13rem;    
+    padding-bottom: 11.6rem;    
 }
 #awardText{
     line-height: 2rem;
@@ -166,11 +167,19 @@ a:any-link{
     text-decoration: underline;
     color: white;
 }
-
 #awardBackground{
     position: absolute;
     top:313.5%;
     left: 0%;
     width: 100%;
     filter: brightness(40%);
+}
+#bottomFooter{
+    font-size: 1.1rem;
+    position: absolute;
+    top: 125%;
+    text-align: center;
+    background-color: rgb(192, 204, 238);
+    width: 100%;
+    padding: 3% 0 3% 0;
 }

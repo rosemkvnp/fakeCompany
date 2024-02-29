@@ -20,3 +20,7 @@ function slideChanger() {
     }, 300); 
 }
 setInterval(slideChanger, 10000);   
+
+$(document).ready(function() {
+    $('#slideText').fadeIn(1000); 
+});
