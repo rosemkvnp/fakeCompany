@@ -38,7 +38,7 @@ border-bottom: 0.09rem solid gray;
     transition: opacity .2s ease-in;
     filter: brightness(70%);
 }
-#slideText, #slideText2, #slideButton, #learnMore{
+#slideText, #slideText2, #slideButton, .learnMore, #rewardList{
     position: absolute;
     font-family: block;
     color: white;
@@ -72,7 +72,7 @@ border-bottom: 0.09rem solid gray;
     background-color: rgb(62, 102, 100);
 }
 #aboutUsSection{
-    margin: 12% 15% 0 15%;   
+    margin: 11% 15% 0 15%;   
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
@@ -96,7 +96,6 @@ a:any-link{
     margin-top: 53%;
 }
 .roofingContent{
-    border: 0.05rem solid black;
     width: 25%;
     border-radius: 0.5rem;
     vertical-align: middle;
@@ -119,7 +118,7 @@ a:any-link{
 .roofingContent:hover{
     filter: brightness(40%);
 }
-#learnMore{
+.learnMore{
     position: none;
     border: 0.1rem solid white !important;
     font-size: 2.5rem;
@@ -130,6 +129,48 @@ a:any-link{
     left: 42%;
     transition: .2s;
 }
-#learnMore:hover{
+.learnMore:hover{
     background-color: rgb(54, 93, 124);
+}
+#companyAccomplishments{
+    position: absolute;
+    left:0%;
+    right: 0%; 
+    margin: 12% 0 0 0;
+    padding-bottom: 13rem;    
+}
+#awardText{
+    line-height: 2rem;
+    color: white;
+    font-family: block;
+    text-align:center; 
+    margin-left: 50%; 
+    margin-right: 5%; 
+    margin-top: 3%;
+    font-size: 1.5rem;
+}
+#rewardList{
+    position: absolute;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    margin-left: 5rem;
+    top:39%;
+}
+#whyUs{
+    font-size: 4rem;
+    font-family: block;
+    letter-spacing: 0.2rem;
+    position: absolute; 
+    top: 22%;
+    left: 13.5%;
+    text-decoration: underline;
+    color: white;
+}
+
+#awardBackground{
+    position: absolute;
+    top:313.5%;
+    left: 0%;
+    width: 100%;
+    filter: brightness(40%);
 }
