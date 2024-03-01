@@ -8,18 +8,20 @@ html{
 
 
 
-
+.loadOn{
+    display: none;
+}
 #sidePhoto{
     z-index: -1;
-    width: 55%;
     position: absolute;
+    width: 51%;
     top:0%;
     left: 0%;
 }
-h1, h2{
+h1, h2, p{
     color: white;
     font-family: block;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     margin-left: 4rem;
 }
 h2{
@@ -27,3 +29,30 @@ h2{
     text-decoration: underline;
 }
 
+p{
+font-size: 1.5rem;
+width: 25.5rem;
+padding: 0.5rem 0 0.2rem 0.5rem;
+border: 0.3rem solid white;
+border-radius: 0.2rem;
+}
+
+.bottomBadges{
+    width: 12.5%;
+    margin: 0.7rem 0 0 2.2rem;
+}
+
+#bottomFooter{
+    font-size: 1.1rem;
+    position: absolute;
+    top: 118%;
+    left: 0%;
+    background-color: rgb(192, 204, 238);
+    width: 100%;
+    padding: 1% 0 0.2% 0;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+#copyRight{
+    position: relative;
+    left: 34%;
+}

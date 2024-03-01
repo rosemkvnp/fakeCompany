@@ -1,4 +1,4 @@
 $(document).ready(function load () {
-      $('#badge4').fadeIn(1000)
+      $('.loadOn').fadeIn(1000)
 });
 
