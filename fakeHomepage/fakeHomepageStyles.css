@@ -3,7 +3,7 @@ html{
 }
 @font-face {
     font-family: block;
-    src: url('/siteFonts/AmericanCaptain-MdEY.otf');
+    src: url('/fakeCompany/siteFonts/AmericanCaptain-MdEY.otf');
 }
 
 
@@ -67,7 +67,7 @@ a.navContent:visited{
 }
 #slideText2{
     top: 44%;
-    left: 36%;
+    left: 33.7%;
     font-size: 2.2rem;
     text-decoration: underline;
 }

@@ -1,0 +1,29 @@
+html{
+    background-color: rgb(208, 235, 226);
+}
+@font-face {
+    font-family: block;
+    src: url('/fakeCompany/siteFonts/AmericanCaptain-MdEY.otf');
+}
+
+
+
+
+#sidePhoto{
+    z-index: -1;
+    width: 55%;
+    position: absolute;
+    top:0%;
+    left: 0%;
+}
+h1, h2{
+    color: white;
+    font-family: block;
+    letter-spacing: 0.2rem;
+    margin-left: 4rem;
+}
+h2{
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
