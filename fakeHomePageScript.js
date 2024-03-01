@@ -22,5 +22,5 @@ function slideChanger() {
 setInterval(slideChanger, 10000);   
 
 $(document).ready(function() {
-    $('#slideText').fadeIn(1000); 
+    $('#slideText').fadeIn(1500); 
 });

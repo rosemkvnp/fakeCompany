@@ -5,10 +5,10 @@ html{
     font-family: block;
     src: url('/siteFonts/AmericanCaptain-MdEY.otf');
 }
-#companyLogo{
-width: 12rem ; 
-vertical-align: middle;
-}
+
+
+
+
 #topNav{
 background-color: rgb(192, 204, 238);
 position: absolute;
@@ -28,6 +28,21 @@ border-bottom: 0.09rem solid gray;
 .navContent:hover{
     color: white;
 }
+#contactUs:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:any-link{
+    text-decoration: none;
+}
+a.navContent:visited{
+    color: black;
+}
+
+
+
+
+
 #slideContent{
    position: absolute;
    top: 10.8%; 
@@ -58,7 +73,7 @@ border-bottom: 0.09rem solid gray;
 }
 #slideButton{
     border: 0.1rem solid white !important;
-    border-radius: 1rem;
+    border-radius: 0.6rem;
     font-size: 2.7rem;
     border-style: none;
     padding: 0.7rem 1rem 0.1rem 1rem;
@@ -72,27 +87,11 @@ border-bottom: 0.09rem solid gray;
     color: rgb(218, 228, 226);
     background-color: rgb(62, 102, 100);
 }
-#aboutUsSection{
-    margin: 11% 15% 0 15%;   
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: white;
-    padding: 1rem;
-    line-height: 1.5rem;
-    border-radius: 0.3rem;
-}
-h1{
-    font-family: block;
-    letter-spacing: 0.1rem;
-    text-decoration: underline;
-}
-a:any-link{
-    text-decoration: none;
-}
-#gpsLocation:hover{
-    color: black;
-    text-decoration: underline;
-}
+
+
+
+
+
 #roofingTypes{
     margin-top: 53%;
 }
@@ -119,6 +118,28 @@ a:any-link{
 .roofingContent:hover{
     filter: brightness(40%);
 }
+
+
+
+
+#aboutUsSection{
+    margin: 11% 15% 0 15%;   
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-radius: 0.3rem;
+}
+h1{
+    font-family: block;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+}
+
+
+
+
 .learnMore{
     position: none;
     border: 0.1rem solid white !important;
@@ -133,6 +154,10 @@ a:any-link{
 .learnMore:hover{
     background-color: rgb(54, 93, 124);
 }
+
+
+
+
 #companyAccomplishments{
     position: absolute;
     left:0%;
@@ -181,5 +206,5 @@ a:any-link{
     text-align: center;
     background-color: rgb(192, 204, 238);
     width: 100%;
-    padding: 3% 0 3% 0;
+    padding: 0.5% 0 0.5% 0;
 }
